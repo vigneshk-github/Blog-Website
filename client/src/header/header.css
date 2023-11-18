@@ -1,0 +1,27 @@
+.headerTitle{
+    /* padding-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.headerTitle span:nth-child(1) {
+    margin-top:50px;
+    position: absolute;
+    align-items: center;
+}
+
+.headerTitle span:nth-child(2){
+    margin-top: 200px;
+    position: absolute;
+    align-items: center;
+    font-size: 70px;
+}
+
+

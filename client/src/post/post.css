@@ -1,0 +1,14 @@
+.post{
+    text-align: center;
+}
+
+.card{
+    width: 23rem;
+    font-size: 14px;
+}
+
+.postCat{
+    padding: 20px;
+    color: gray;
+    padding-bottom: 10px;
+}

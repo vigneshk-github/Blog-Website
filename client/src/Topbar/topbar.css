@@ -1,0 +1,58 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    font-size: large;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.left,.middle>*{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 100px;
+    justify-content: space-evenly;
+}
+
+
+.middle{
+    position: absolute;
+    left: 340px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-right: 100px;
+    
+}
+
+.right>*:hover{
+    cursor: pointer;
+}
+
+.right>*{
+    margin-left: 10px;
+}
+
+.leo{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.left>*,.middle>*{
+    cursor: pointer;
+}
