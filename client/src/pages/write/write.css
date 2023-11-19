@@ -1,0 +1,43 @@
+.write{
+    padding-top: 15px;
+    position: relative;
+}
+
+.form-img1{
+    margin: 0px 0px 60px 370px;
+    width: 400px;
+}
+
+
+.writeform{
+    text-align: center;
+}
+
+.writeformGroup{
+    margin: auto;
+    position: absolute;
+    align-items: end;
+    padding-left: 20px;
+    margin-left: 70px;
+}
+.writeformGroup>*{
+    margin-left: 20px;
+}
+
+.writeformGroup1{
+    position: absolute;
+    margin: auto;
+    padding-top: 40px;
+    top: 370px;
+    left: 150px;
+}
+
+.writeInput:focus,.writetext:focus{
+    outline: none;
+}
+
+.writeSubmit{
+    position: absolute;
+    padding: auto;
+    right: 200px;
+}
